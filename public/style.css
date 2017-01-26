@@ -1,0 +1,44 @@
+body{
+    background-color:lightblue;
+    text-align:center;
+}
+
+h1{
+    font-family: verdana;
+    font-size: 40px;
+}
+
+p {
+    font-family: verdana;
+    font-size: 20px;
+}
+
+#hormenu{
+    background-color: #333
+}
+
+#demo{
+    font-family: Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+#hormenu ul li
+{
+    list-style-type: none;
+    display: inline-block;
+    overflow:hidden;
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+
+li a:hover {
+    background-color: #111;
+}
