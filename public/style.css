@@ -25,7 +25,10 @@ p {
 }
 
 .loaded #overlay{
-    visibility:hidden;
+    opacity: 0;
+    -webkit-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+    
 }
 
 #hormenu{
