@@ -23,25 +23,25 @@ wheel = {
     draw: function() {
         context.beginPath();
         context.arc(250, 250, radius, 0, Math.PI * 2, false);
-        context.fillStyle = 'white';
+        context.fillStyle = '#9C27B0';
         context.fill();
         context.closePath();
 
         context.beginPath();
         context.arc(250, 250, 35, 0, Math.PI * 2, false);
-        context.fillStyle = 'black';
+        context.fillStyle = '#FFEB3B';
         context.fill();
         context.closePath();
 
         context.beginPath();
         context.arc(250, 250, radius + 5, 0, Math.PI * 2, false);
-        context.strokeStyle = 'white'
+        context.strokeStyle = '#9C27B0'
         context.stroke();
         context.closePath();
 
         context.beginPath();
         context.arc(250, 250, radius + 15, 0, Math.PI * 2, false);
-        context.strokeStyle = 'white'
+        context.strokeStyle = '#9C27B0'
         context.stroke();
         context.closePath();
 
@@ -51,7 +51,7 @@ wheel = {
             context.moveTo(this.x, this.y);
             context.lineTo(this.x + Math.cos(Math.PI * (ang + angle) / 180) * this.radiusIn,
                 this.y + Math.sin(Math.PI * (ang + angle) / 180) * this.radiusIn);
-            context.strokeStyle = 'white'
+            context.strokeStyle = '#9C27B0'
             context.lineWidth = 5;
             context.stroke();
         }
