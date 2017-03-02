@@ -106,11 +106,11 @@ section {
 }
 
 section:nth-child(even) {
-    background: #E1BEE7;
+    background: #F3E5F5;
 }
 
 section:nth-child(odd) {
-    background: #FFF9C4;
+    background: #FFFDE7;
 }
 
 .sections section:first-child {
