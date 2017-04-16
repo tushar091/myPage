@@ -20,8 +20,8 @@ p {
 }
 
 .home {
-    float: right;
-    margin-right: 400px;
+    float: left;
+    margin-left: 150px;
 }
 
 .work {
