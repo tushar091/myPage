@@ -13,6 +13,28 @@ p {
     font-size: 20px;
 }
 
+.image {
+    float: left;
+    margin-left: 250px;
+    margin-top: 50px;
+}
+
+.home {
+    float: right;
+    margin-right: 400px;
+}
+
+.work {
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.apps {
+    margin-top: 50px;
+    margin-right: 50px;
+    float: left;
+}
+
 #overlay {
     height: 100%;
     width: 100%;
@@ -83,6 +105,16 @@ li a:hover {
     z-index: 1001;
 }
 
+#hobbies_canvas {
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #FFEB3B;
+    display: block;
+    margin: 50px auto;
+    z-index: 1001;
+}
+
 h1 {
     font-size: 5rem;
     color: #34495E;
@@ -101,7 +133,7 @@ section {
     padding: 50px;
     background: #fff;
     border-bottom: 1px solid #ccc;
-    height: 500px;
+    height: 600px;
     text-align: center;
 }
 
@@ -110,7 +142,7 @@ section:nth-child(even) {
 }
 
 section:nth-child(odd) {
-    background: #FFFDE7;
+    background: #fffeb3;
 }
 
 .sections section:first-child {
