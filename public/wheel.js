@@ -76,6 +76,7 @@ setTimeout(function() {
 }, 2000);
 
 setInterval(refresh, 1000 / 60);
+
 $(document).ready(function() {
     var lastId,
         topMenu = $("#hormenu"),

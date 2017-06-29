@@ -5,7 +5,12 @@ body {
 
 h1 {
     font-family: verdana;
-    font-size: 40px;
+    font-size: 4rem;
+}
+
+h3 {
+    font-family: Verdana;
+    font-size: 15px;
 }
 
 p {
@@ -22,11 +27,18 @@ p {
 .home {
     float: left;
     margin-left: 150px;
+    text-align: left;
 }
 
 .work {
     margin-left: 50px;
     margin-top: 50px;
+}
+
+.hobbies {
+    margin-left: 50px;
+    margin-top: 50px;
+    text-align: left;
 }
 
 .apps {
@@ -109,15 +121,9 @@ li a:hover {
     top: 0;
     left: 0;
     right: 0;
-    background: #FFEB3B;
     display: block;
     margin: 50px auto;
     z-index: 1001;
-}
-
-h1 {
-    font-size: 5rem;
-    color: #34495E;
 }
 
 .active {
