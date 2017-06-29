@@ -6,15 +6,18 @@ var can = document.getElementById("hobbies_canvas"),
 var width = $(window).width();
 can.width = $(window).width();
 
-function draw(start, w) {
+function draw(start, w, hobby) {
     cont.fillStyle = "#FF0000";
     cont.fillRect(0, start, w, 20);
+    cont.font = "20px Comic Sans MS";
+    cont.fillText(hobby, w + 20, start + 20);
 };
 
 function drawAll() {
     var start = 0;
+    var hobbies = ["Football", "Coding competitions", "Travel", "Cook"];
     for (var i = 1; i < 5; i++) {
-        draw(start, width / (2 * i));
+        draw(start, width / (2 * i), hobbies[i - 1]);
         start = start + 40;
     }
 }
