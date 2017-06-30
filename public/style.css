@@ -76,7 +76,6 @@ a:visited {
 }
 
 .thumbnail {
-    position: relative;
     margin-top: 25px;
     margin-right: 25px;
     width: 100px;
@@ -84,13 +83,11 @@ a:visited {
 }
 
 .thumbnail:hover {
-    position: relative;
     margin-top: 25px;
     margin-right: 25px;
     width: 150px;
     height: auto;
     display: block;
-    z-index: 999;
 }
 
 #hormenu {
